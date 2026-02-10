@@ -1,0 +1,646 @@
+mode: Rule
+# =====================================
+#            AKUN VLESS
+# =====================================
+#AKUN ORANG LAIN
+# x-xox: &xia
+#   type: vless
+#   port: 443
+#   uuid: 9be5679d-cd82-4ace-9fcf-bed31e21fadf
+#   udp: false
+#   tls: true
+#   skip-cert-verify: true
+#   network: ws
+#   servername: tronblue.qzz.io
+#   ws-opts:
+#     path: /125.253.92.51=443
+#     headers:
+#       Host: tronblue.qzz.io
+
+#AKUN KU SENDIRI
+# x-xoxtls: &xia-443
+#   type: trojan
+#   port: 8443
+#   password: xox
+#   udp: false
+#   sni: xix.gosiwin122.workers.dev
+#   network: ws
+#   ws-opts:
+#     path: /pyip=125.253.92.51
+#     headers:
+#       Host: xix.gosiwin122.workers.dev
+
+x-xox: &xia-80
+  type: vless
+  port: 443
+  uuid: a4aaaaaa-a4aa-4aaa-a4aa-a4aa4aa4aa4a
+  udp: false
+  tls: true
+  servername: xox.gosiwin122.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=162.128.71.150:10024
+    headers:
+      Host: xox.gosiwin122.workers.dev
+
+
+  # type: vless
+  # port: 8080
+  # uuid: a4aaaaaa-a4aa-4aaa-a4aa-a4aa4aa4aa4a
+  # udp: false
+  # tls: false
+  # network: ws
+  # ws-opts:
+  #   path: /pyip=162.128.71.150:10024
+  #   headers:
+  #     Host: xox.gosiwin122.workers.dev
+
+
+x-sni: &sni
+  server: sg.iptunnel.eu.org
+  type: vless
+  port: 443
+  uuid: 933f4482-3cd6-4b1d-8269-29bf24588e61
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: sg.iptunnel.eu.org
+  
+# =====================================
+#               PROXIES
+# =====================================
+proxies:
+# =====================================
+# =====================================
+#       PORT = 80 WS-NON-TLS
+# =====================================
+# =====================================
+# =====================================
+#               DIRECT
+# =====================================
+- name: "xox.gosiwin122.workers.dev"
+  server: xox.gosiwin122.workers.dev
+  <<: *xia-80
+
+# =====================================
+#               APPSFLYER
+# =====================================
+- name: "172.66.0.157"
+  server: 172.66.0.157
+  <<: *xia-80
+- name: "162.159.140.159"
+  server: 162.159.140.159
+  <<: *xia-80
+- name: "172.64.144.133"
+  server: 172.64.144.133
+  <<: *xia-80
+- name: "104.18.43.123"
+  server: 104.18.43.123
+  <<: *xia-80
+- name: "careers.appsflyer.com"
+  server: careers.appsflyer.com
+  <<: *xia-80
+- name: "community.appsflyer.com"
+  server: community.appsflyer.com
+  <<: *xia-80
+- name: "dev.appsflyer.com"
+  server: dev.appsflyer.com
+  <<: *xia-80
+- name: "esp2whstg.espclicks-stg.appsflyer.com"
+  server: esp2whstg.espclicks-stg.appsflyer.com
+  <<: *xia-80
+- name: "go.appsflyer.com"
+  server: go.appsflyer.com
+  <<: *xia-80
+- name: "index.appsflyer.com"
+  server: index.appsflyer.com
+  <<: *xia-80
+- name: "learn.appsflyer.com"
+  server: learn.appsflyer.com
+  <<: *xia-80
+- name: "lp.appsflyer.com"
+  server: lp.appsflyer.com
+  <<: *xia-80
+- name: "partners.appsflyer.com"
+  server: partners.appsflyer.com
+  <<: *xia-80
+- name: "rawdata.appsflyer.com"
+  server: rawdata.appsflyer.com
+  <<: *xia-80
+- name: "support.appsflyer.com"
+  server: support.appsflyer.com
+  <<: *xia-80
+- name: "www.appsflyer.com"
+  server: www.appsflyer.com
+  <<: *xia-80
+
+# =====================================
+#        BYU.ID OPOK BYU
+# =====================================
+- name: "space.byu.id"
+  server: space.byu.id
+  <<: *xia-80
+
+# =====================================
+#               EDUKASI
+# =====================================
+- name: "104.17.3.81"
+  server: 104.17.3.81
+  <<: *xia-80
+
+# =====================================
+#               FACEBOOK
+# =====================================
+- name: "investor.fb.com"
+  server: investor.fb.com
+  <<: *xia-80
+
+# =====================================
+#               GARENA.COM
+# =====================================
+- name: "162.159.140.147"
+  server: 162.159.140.147
+  <<: *xia-80
+- name: "ff.garena.com"
+  server: ff.garena.com
+  <<: *xia-80
+- name: "172.66.0.145"
+  server: 172.66.0.145
+  <<: *xia-80
+- name: "web.poe.garena.com"
+  server: web.poe.garena.com
+  <<: *xia-80
+
+# =====================================
+#               Gopay
+# =====================================
+- name: "app.gopay.co.id"
+  server: app.gopay.co.id
+  <<: *xia-80
+- name: "app-stg.gopay.co.id"
+  server: app-stg.gopay.co.id
+  <<: *xia-80
+
+# =====================================
+#            LINE
+# =====================================
+- name: "collection.linefriends.com"
+  server: collection.linefriends.com
+  <<: *xia-80
+- name: "store.linefriends.com"
+  server: store.linefriends.com
+  <<: *xia-80
+
+# =====================================
+#               MIDTRANS
+# =====================================
+- name: "172.67.74.70"
+  server: 172.67.74.70
+  <<: *xia-80
+- name: "104.16.241.118"
+  server: 104.16.241.118
+  <<: *xia-80
+- name: "104.26.14.196"
+  server: 104.26.14.196
+  <<: *xia-80
+- name: "docs.midtrans.com"
+  server: docs.midtrans.com
+  <<: *xia-80
+- name: "info.midtrans.com"
+  server: info.midtrans.com
+  <<: *xia-80
+- name: "iris-docs.midtrans.com"
+  server: iris-docs.midtrans.com
+  <<: *xia-80
+  
+# =====================================
+#            NAVER
+# =====================================
+- name: "104.16.126.59"
+  server: 104.16.126.59
+  <<: *xia-80
+- name: "ava.game.naver.com"
+  server: ava.game.naver.com
+  <<: *xia-80
+- name: "172.64.145.18"
+  server: 172.64.145.18
+  <<: *xia-80
+- name: "cyphers.game.naver.com"
+  server: cyphers.game.naver.com
+  <<: *xia-80
+- name: "gamebulletin.nexon.game.naver.com"
+  server: gamebulletin.nexon.game.naver.com
+  <<: *xia-80
+- name: "latale.game.naver.com"
+  server: latale.game.naver.com
+  <<: *xia-80
+- name: "plus-store.naver.com"
+  server: plus-store.naver.com
+  <<: *xia-80
+- name: "z9star.game.naver.com"
+  server: z9star.game.naver.com
+  <<: *xia-80
+
+# =====================================
+#            NOICE.ID
+# =====================================
+- name: "104.21.41.224"
+  server: 104.21.41.224
+  <<: *xia-80
+- name: "172.67.167.175"
+  server: 172.67.167.175
+  <<: *xia-80
+- name: "104.19.240.93"
+  server: 104.19.240.93
+  <<: *xia-80
+- name: "listen.noice.id"
+  server: listen.noice.id
+  <<: *xia-80
+- name: "thecalmadhdblueprint.noice.id"
+  server: thecalmadhdblueprint.noice.id
+  <<: *xia-80
+
+# =====================================
+#               RUANGGURU
+# =====================================
+- name: "188.114.96.3"
+  server: 188.114.96.3
+  <<: *xia-80
+- name: "188.114.97.3"
+  server: 188.114.97.3
+  <<: *xia-80
+
+# =====================================
+#               SPOTIFY
+# =====================================
+- name: "investors.spotify.com"
+  server: investors.spotify.com
+  <<: *xia-80
+- name: "nerdout.atspotify.com"
+  server: nerdout.atspotify.com
+  <<: *xia-80
+
+# =====================================
+#            TIKTOK.COM
+# =====================================
+- name: "172.66.1.232"
+  server: 172.66.1.232
+  <<: *xia-80
+
+# =====================================
+#            UDEMY.COM
+# =====================================
+- name: "104.16.143.237"
+  server: 104.16.143.237
+  <<: *xia-80
+- name: "104.16.142.237"
+  server: 104.16.142.237
+  <<: *xia-80
+- name: "community.udemy.com"
+  server: community.udemy.com
+  <<: *xia-80
+- name: "info.udemy.com"
+  server: info.udemy.com
+  <<: *xia-80
+- name: "infom.udemy.com"
+  server: infom.udemy.com
+  <<: *xia-80
+- name: "support.udemy.com"
+  server: support.udemy.com
+  <<: *xia-80
+- name: "trust.udemy.com"
+  server: trust.udemy.com
+  <<: *xia-80
+
+# =====================================
+#               VIDIO.COM
+# =====================================
+- name: "img.email1.vidio.com"
+  server: img.email1.vidio.com
+  <<: *xia-80
+- name: "104.17.159.243"
+  server: 104.17.159.243
+  <<: *xia-80
+- name: "172.66.144.39"
+  server: 172.66.144.39
+  <<: *xia-80
+- name: "quiz.staging.vidio.com"
+  server: quiz.staging.vidio.com
+  <<: *xia-80
+- name: "support.vidio.com"
+  server: support.vidio.com
+  <<: *xia-80
+
+# =====================================
+#               VISION+
+# =====================================
+- name: "104.18.225.52"
+  server: 104.18.225.52
+  <<: *xia-80
+
+# =====================================
+#               WHATSAPP
+# =====================================
+- name: "104.18.1.196"
+  server: 104.18.1.196
+  <<: *xia-80
+
+# =====================================
+#               WEBEX
+# =====================================
+- name: "carrier.webex.com"
+  server: 162.159.134.42
+  <<: *xia-80
+- name: "blog.webex.com"
+  server: 141.193.213.20
+  <<: *xia-80
+
+# =====================================
+#               ZOOM.US
+# =====================================
+- name: "support.zoom.us"
+  server: support.zoom.us
+  <<: *xia-80
+- name: "gomarketplacecontent-cf.zoom.us"
+  server: gomarketplacecontent-cf.zoom.us
+  <<: *xia-80
+- name: "gomarketplacefront-cf.zoom.us"
+  server: gomarketplacefront-cf.zoom.us
+  <<: *xia-80
+- name: "marketplacecontent-cf.zoom.us"
+  server: marketplacecontent-cf.zoom.us
+  <<: *xia-80
+- name: "marketplacefront-cf.zoom.us"
+  server: marketplacefront-cf.zoom.us
+  <<: *xia-80
+  
+
+# =====================================
+#               PROXY-GROUPS
+# =====================================
+proxy-groups:
+
+- name: "xox"
+  type: select
+  proxies:
+    - "Direct"
+    - "Appsflyer"
+    - "Byu.id opok"
+    - "Edukasi"
+    - "Facebook"
+    - "Garena"
+    - "Gopay"
+    - "Line"
+    - "Midtrans"
+    - "Naver"
+    - "Noice.id"
+    - "Ruangguru"
+    - "Spotify"
+    - "Tiktok"
+    - "Udemy"
+    - "Vidio"
+    - "Vision+"
+    - "Whatsapp"
+    - "Webex"
+    - "Zoom.us"
+  url: ""
+  
+# =====================================
+#               DIRECT
+# =====================================
+- name: "Direct"
+  type: url-test
+  proxies:
+    - "xox.gosiwin122.workers.dev"
+  url: ""
+
+# =====================================
+#               APPSFLYER
+# =====================================
+- name: "Appsflyer"
+  type: url-test
+  proxies:
+    - "172.66.0.157"
+    - "162.159.140.159"
+    - "172.64.144.133"
+    - "104.18.43.123"
+    - "careers.appsflyer.com"
+    - "community.appsflyer.com"
+    - "dev.appsflyer.com"
+    - "esp2whstg.espclicks-stg.appsflyer.com"
+    - "go.appsflyer.com"
+    - "index.appsflyer.com"
+    - "learn.appsflyer.com"
+    - "lp.appsflyer.com"
+    - "partners.appsflyer.com"
+    - "rawdata.appsflyer.com"
+    - "support.appsflyer.com"
+    - "www.appsflyer.com"
+  url: ""
+
+# =====================================
+#          BYU.ID OPOK BYU
+# =====================================
+- name: "Byu.id opok"
+  type: url-test
+  proxies:
+    - "space.byu.id"
+  url: ""
+
+# =====================================
+#               EDUKASI
+# =====================================
+- name: "Edukasi"
+  type: url-test
+  proxies:
+    - "104.17.3.81"
+  url: ""
+
+# =====================================
+#               FACEBOOK
+# =====================================
+- name: "Facebook"
+  type: url-test
+  proxies:
+    - "investor.fb.com"
+  url: ""
+
+# =====================================
+#               GARENA.COM
+# =====================================
+- name: "Garena"
+  type: url-test
+  proxies:
+    - "162.159.140.147"
+    - "ff.garena.com"
+    - "172.66.0.145"
+    - "web.poe.garena.com"
+  url: ""
+
+# =====================================
+#               GOPAY
+# =====================================
+- name: "Gopay"
+  type: url-test
+  proxies:
+    - "app.gopay.co.id"
+    - "app-stg.gopay.co.id"
+  url: ""
+
+# =====================================
+#             LINE
+# =====================================
+- name: "Line"
+  type: url-test
+  proxies:
+    - "collection.linefriends.com"
+    - "store.linefriends.com"
+  url: ""
+
+# =====================================
+#              MIDTRANS
+# =====================================
+- name: "Midtrans"
+  type: url-test
+  proxies:
+    - "172.67.74.70"
+    - "104.16.241.118"
+    - "104.26.14.196"
+    - "docs.midtrans.com"
+    - "info.midtrans.com"
+    - "iris-docs.midtrans.com"
+  url: ""
+  
+# =====================================
+#             NAVER
+# =====================================
+- name: "Naver"
+  type: url-test
+  proxies:
+    - "104.16.126.59"
+    - "ava.game.naver.com"
+    - "172.64.145.18"
+    - "cyphers.game.naver.com"
+    - "gamebulletin.nexon.game.naver.com"
+    - "latale.game.naver.com"
+    - "plus-store.naver.com"
+    - "z9star.game.naver.com"
+  url: ""
+
+# =====================================
+#               NOICE.ID
+# =====================================
+- name: "Noice.id"
+  type: url-test
+  proxies:
+    - "104.21.41.224"
+    - "172.67.167.175"
+    - "104.19.240.93"
+    - "listen.noice.id"
+    - "thecalmadhdblueprint.noice.id"
+  url: ""
+
+# =====================================
+#               RUANGGURU
+# =====================================
+- name: "Ruangguru"
+  type: url-test
+  proxies:
+    - "188.114.96.3"
+    - "188.114.97.3"
+  url: ""
+
+# =====================================
+#               SPOTIFY
+# =====================================
+- name: "Spotify"
+  type: url-test
+  proxies:
+    - "investors.spotify.com"
+    - "nerdout.atspotify.com"
+  url: ""
+
+# =====================================
+#               TIKTOK.COM
+# =====================================
+- name: "Tiktok"
+  type: url-test
+  proxies:
+    - "172.66.1.232"
+  url: ""
+
+# =====================================
+#               UDEMY.COM
+# =====================================
+- name: "Udemy"
+  type: url-test
+  proxies:
+    - "104.16.143.237"
+    - "104.16.142.237"
+    - "community.udemy.com"
+    - "info.udemy.com"
+    - "infom.udemy.com"
+    - "support.udemy.com"
+    - "trust.udemy.com"
+  url: ""
+
+# =====================================
+#               VIDIO
+# =====================================
+- name: "Vidio"
+  type: url-test
+  proxies:
+    - "img.email1.vidio.com"
+    - "104.17.159.243"
+    - "172.66.144.39"
+    - "quiz.staging.vidio.com"
+    - "support.vidio.com"
+  url: ""
+
+# =====================================
+#               VISION+
+# =====================================
+- name: "Vision+"
+  type: url-test
+  proxies:
+    - "104.18.225.52"
+  url: ""
+
+# =====================================
+#               WHATSAPP
+# =====================================
+- name: "Whatsapp"
+  type: url-test
+  proxies:
+    - "104.18.1.196"
+  url: ""
+
+# =====================================
+#               WEBEX
+# =====================================
+- name: "Webex"
+  type: url-test
+  proxies:
+    - "carrier.webex.com"
+    - "blog.webex.com"
+  url: ""
+
+# =====================================
+#                ZOOM.US
+# =====================================
+- name: "Zoom.us"
+  type: url-test
+  proxies:
+    - "support.zoom.us"
+    - "gomarketplacecontent-cf.zoom.us"
+    - "gomarketplacefront-cf.zoom.us"
+    - "marketplacecontent-cf.zoom.us"
+    - "marketplacefront-cf.zoom.us"
+  url: ""
+
+rules:
+  - MATCH,xox
