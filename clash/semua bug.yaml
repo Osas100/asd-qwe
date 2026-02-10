@@ -407,7 +407,6 @@ proxy-groups:
     - "Whatsapp"
     - "Webex"
     - "Zoom.us"
-  url: ""
   
 # =====================================
 #               DIRECT
@@ -416,7 +415,6 @@ proxy-groups:
   type: url-test
   proxies:
     - "xox.gosiwin122.workers.dev"
-  url: ""
 
 # =====================================
 #               APPSFLYER
@@ -440,7 +438,6 @@ proxy-groups:
     - "rawdata.appsflyer.com"
     - "support.appsflyer.com"
     - "www.appsflyer.com"
-  url: ""
 
 # =====================================
 #          BYU.ID OPOK BYU
@@ -449,7 +446,6 @@ proxy-groups:
   type: url-test
   proxies:
     - "space.byu.id"
-  url: ""
 
 # =====================================
 #               EDUKASI
@@ -458,7 +454,6 @@ proxy-groups:
   type: url-test
   proxies:
     - "104.17.3.81"
-  url: ""
 
 # =====================================
 #               FACEBOOK
@@ -467,7 +462,6 @@ proxy-groups:
   type: url-test
   proxies:
     - "investor.fb.com"
-  url: ""
 
 # =====================================
 #               GARENA.COM
@@ -479,7 +473,6 @@ proxy-groups:
     - "ff.garena.com"
     - "172.66.0.145"
     - "web.poe.garena.com"
-  url: ""
 
 # =====================================
 #               GOPAY
@@ -489,7 +482,6 @@ proxy-groups:
   proxies:
     - "app.gopay.co.id"
     - "app-stg.gopay.co.id"
-  url: ""
 
 # =====================================
 #             LINE
@@ -499,7 +491,6 @@ proxy-groups:
   proxies:
     - "collection.linefriends.com"
     - "store.linefriends.com"
-  url: ""
 
 # =====================================
 #              MIDTRANS
@@ -513,7 +504,6 @@ proxy-groups:
     - "docs.midtrans.com"
     - "info.midtrans.com"
     - "iris-docs.midtrans.com"
-  url: ""
   
 # =====================================
 #             NAVER
@@ -529,7 +519,6 @@ proxy-groups:
     - "latale.game.naver.com"
     - "plus-store.naver.com"
     - "z9star.game.naver.com"
-  url: ""
 
 # =====================================
 #               NOICE.ID
@@ -542,7 +531,6 @@ proxy-groups:
     - "104.19.240.93"
     - "listen.noice.id"
     - "thecalmadhdblueprint.noice.id"
-  url: ""
 
 # =====================================
 #               RUANGGURU
@@ -552,7 +540,6 @@ proxy-groups:
   proxies:
     - "188.114.96.3"
     - "188.114.97.3"
-  url: ""
 
 # =====================================
 #               SPOTIFY
@@ -562,7 +549,6 @@ proxy-groups:
   proxies:
     - "investors.spotify.com"
     - "nerdout.atspotify.com"
-  url: ""
 
 # =====================================
 #               TIKTOK.COM
@@ -571,7 +557,6 @@ proxy-groups:
   type: url-test
   proxies:
     - "172.66.1.232"
-  url: ""
 
 # =====================================
 #               UDEMY.COM
@@ -586,7 +571,6 @@ proxy-groups:
     - "infom.udemy.com"
     - "support.udemy.com"
     - "trust.udemy.com"
-  url: ""
 
 # =====================================
 #               VIDIO
@@ -599,7 +583,6 @@ proxy-groups:
     - "172.66.144.39"
     - "quiz.staging.vidio.com"
     - "support.vidio.com"
-  url: ""
 
 # =====================================
 #               VISION+
@@ -608,7 +591,6 @@ proxy-groups:
   type: url-test
   proxies:
     - "104.18.225.52"
-  url: ""
 
 # =====================================
 #               WHATSAPP
@@ -617,7 +599,6 @@ proxy-groups:
   type: url-test
   proxies:
     - "104.18.1.196"
-  url: ""
 
 # =====================================
 #               WEBEX
@@ -627,7 +608,6 @@ proxy-groups:
   proxies:
     - "carrier.webex.com"
     - "blog.webex.com"
-  url: ""
 
 # =====================================
 #                ZOOM.US
@@ -640,7 +620,6 @@ proxy-groups:
     - "gomarketplacefront-cf.zoom.us"
     - "marketplacecontent-cf.zoom.us"
     - "marketplacefront-cf.zoom.us"
-  url: ""
 
 rules:
   - MATCH,xox
