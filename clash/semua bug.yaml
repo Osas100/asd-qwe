@@ -295,6 +295,7 @@ proxies:
   <<: *xia-80
 - name: "api24-normal.tiktokv.com"
   server: api24-normal.tiktokv.com
+  <<: *xia-80
 
 # =====================================
 #            UDEMY.COM
