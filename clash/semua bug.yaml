@@ -308,6 +308,13 @@ proxies:
 - name: "champion.ruangguru.com"
   server: champion.ruangguru.com
   <<: *xia-80
+  
+# =====================================
+#               SHOPEE
+# =====================================
+- name: "cf.shopee.co.id"
+  server: cf.shopee.co.id
+  <<: *xia-80
 
 # =====================================
 #               SPOTIFY
@@ -442,6 +449,7 @@ proxy-groups:
     - "Naver"
     - "Noice.id"
     - "Ruangguru"
+    - "Shopee"
     - "Spotify"
     - "Tiktok"
     - "Udemy"
@@ -606,6 +614,14 @@ proxy-groups:
   proxies:
     - "me.ruangguru.com"
     - "champion.ruangguru.com"
+    
+# =====================================
+#               SHOPEE
+# =====================================
+- name: "Shopee"
+  type: url-test
+  proxies:
+    - "cf.shopee.co.id"
 
 # =====================================
 #               SPOTIFY
