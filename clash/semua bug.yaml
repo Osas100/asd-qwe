@@ -210,6 +210,22 @@ proxies:
 - name: "store.linefriends.com"
   server: store.linefriends.com
   <<: *xia-80
+  
+# =====================================
+#               MICROSOFT.COM
+# =====================================
+- name: "auth.copilot.microsoft.com"
+  server: auth.copilot.microsoft.com
+  <<: *xia-80
+- name: "auth.copilotstaging.microsoft.com"
+  server: auth.copilotstaging.microsoft.com
+  <<: *xia-80
+- name: "info.insights.office.com"
+  server: info.insights.office.com
+  <<: *xia-80
+- name: "resources.office.com"
+  server: resources.office.com
+  <<: *xia-80
 
 # =====================================
 #               MIDTRANS
@@ -418,6 +434,7 @@ proxy-groups:
     - "Gopay"
     - "Grab"
     - "Line"
+    - "Microsoft"
     - "Midtrans"
     - "Naver"
     - "Noice.id"
@@ -525,6 +542,17 @@ proxy-groups:
   proxies:
     - "collection.linefriends.com"
     - "store.linefriends.com"
+    
+# =====================================
+#               MICROSOFT.COM
+# =====================================
+- name: "Microsoft"
+  type: url-test
+  proxies:
+    - "auth.copilot.microsoft.com"
+    - "auth.copilotstaging.microsoft.com"
+    - "info.insights.office.com"
+    - "resources.office.com"
 
 # =====================================
 #              MIDTRANS
