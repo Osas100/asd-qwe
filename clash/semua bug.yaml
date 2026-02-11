@@ -191,6 +191,9 @@ proxies:
 - name: "grabacademyportal.grab.com"
   server: grabacademyportal.grab.com
   <<: *xia-80
+- name: "grabacademy-partners-profiling.grab.com"
+  server: grabacademy-partners-profiling.grab.com
+  <<: *xia-80
 - name: "grabalumni.grab.com"
   server: grabalumni.grab.com
   <<: *xia-80
@@ -530,6 +533,7 @@ proxy-groups:
   type: url-test
   proxies:
     - "grabacademyportal.grab.com"
+    - "grabacademy-partners-profiling.grab.com"
     - "grabalumni.grab.com"
     - "grabcentral.grab.com"
     - "investors.grab.com"
