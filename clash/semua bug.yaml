@@ -89,17 +89,17 @@ proxies:
 # =====================================
 #               APPSFLYER
 # =====================================
-- name: "172.66.0.157"
-  server: 172.66.0.157
+- name: "tiktokfootball.customlinks.appsflyer.com"
+  server: tiktokfootball.customlinks.appsflyer.com
   <<: *xia-80
-- name: "162.159.140.159"
-  server: 162.159.140.159
+- name: "grab-cab.customlinks.appsflyer.com"
+  server: grab-cab.customlinks.appsflyer.com
   <<: *xia-80
-- name: "172.64.144.133"
-  server: 172.64.144.133
+- name: "anna.customlinks-stg.appsflyer.com"
+  server: anna.customlinks-stg.appsflyer.com
   <<: *xia-80
-- name: "104.18.43.123"
-  server: 104.18.43.123
+- name: "cdn.customlinks-stg.appsflyer.com"
+  server: cdn.customlinks-stg.appsflyer.com
   <<: *xia-80
 - name: "careers.appsflyer.com"
   server: careers.appsflyer.com
@@ -162,14 +162,14 @@ proxies:
 # =====================================
 #               GARENA.COM
 # =====================================
-- name: "162.159.140.147"
-  server: 162.159.140.147
+- name: "bcmsuporte.garena.com"
+  server: bcmsuporte.garena.com
   <<: *xia-80
 - name: "ff.garena.com"
   server: ff.garena.com
   <<: *xia-80
-- name: "172.66.0.145"
-  server: 172.66.0.145
+- name: "haikyusuporte.garena.com"
+  server: haikyusuporte.garena.com
   <<: *xia-80
 - name: "web.poe.garena.com"
   server: web.poe.garena.com
@@ -198,14 +198,14 @@ proxies:
 # =====================================
 #               MIDTRANS
 # =====================================
-- name: "172.67.74.70"
-  server: 172.67.74.70
+- name: "api.midtrans.com"
+  server: api.midtrans.com
   <<: *xia-80
-- name: "104.16.241.118"
-  server: 104.16.241.118
+- name: "api-docs.midtrans.com"
+  server: api-docs.midtrans.com
   <<: *xia-80
-- name: "104.26.14.196"
-  server: 104.26.14.196
+- name: "app.midtrans.com"
+  server: app.midtrans.com
   <<: *xia-80
 - name: "docs.midtrans.com"
   server: docs.midtrans.com
@@ -220,14 +220,14 @@ proxies:
 # =====================================
 #            NAVER
 # =====================================
-- name: "104.16.126.59"
-  server: 104.16.126.59
+- name: "account.pmang.game.naver.com"
+  server: account.pmang.game.naver.com
   <<: *xia-80
 - name: "ava.game.naver.com"
   server: ava.game.naver.com
   <<: *xia-80
-- name: "172.64.145.18"
-  server: 172.64.145.18
+- name: "df.game.naver.com"
+  server: df.game.naver.com
   <<: *xia-80
 - name: "cyphers.game.naver.com"
   server: cyphers.game.naver.com
@@ -248,14 +248,14 @@ proxies:
 # =====================================
 #            NOICE.ID
 # =====================================
-- name: "104.21.41.224"
-  server: 104.21.41.224
+- name: "partner-uat-api.noice.id"
+  server: partner-uat-api.noice.id
   <<: *xia-80
-- name: "172.67.167.175"
-  server: 172.67.167.175
+- name: "studio.noice.id"
+  server: studio.noice.id
   <<: *xia-80
-- name: "104.19.240.93"
-  server: 104.19.240.93
+- name: "kejarthr.noice.id"
+  server: kejarthr.noice.id
   <<: *xia-80
 - name: "listen.noice.id"
   server: listen.noice.id
@@ -267,11 +267,11 @@ proxies:
 # =====================================
 #               RUANGGURU
 # =====================================
-- name: "188.114.96.3"
-  server: 188.114.96.3
+- name: "me.ruangguru.com"
+  server: me.ruangguru.com
   <<: *xia-80
-- name: "188.114.97.3"
-  server: 188.114.97.3
+- name: "champion.ruangguru.com"
+  server: champion.ruangguru.com
   <<: *xia-80
 
 # =====================================
@@ -287,18 +287,23 @@ proxies:
 # =====================================
 #            TIKTOK.COM
 # =====================================
-- name: "172.66.1.232"
-  server: 172.66.1.232
+- name: "api24-normal-alisg.tiktokv.com"
+  server: api24-normal-alisg.tiktokv.com
   <<: *xia-80
+- name: "api24-normal-useast1a.tiktokv.com"
+  server: api24-normal-useast1a.tiktokv.com
+  <<: *xia-80
+- name: "api24-normal.tiktokv.com"
+  server: api24-normal.tiktokv.com
 
 # =====================================
 #            UDEMY.COM
 # =====================================
-- name: "104.16.143.237"
-  server: 104.16.143.237
+- name: "axis.udemy.com"
+  server: axis.udemy.com
   <<: *xia-80
-- name: "104.16.142.237"
-  server: 104.16.142.237
+- name: "www.facebook.udemy.com"
+  server: www.facebook.udemy.com
   <<: *xia-80
 - name: "community.udemy.com"
   server: community.udemy.com
@@ -322,11 +327,11 @@ proxies:
 - name: "img.email1.vidio.com"
   server: img.email1.vidio.com
   <<: *xia-80
-- name: "104.17.159.243"
-  server: 104.17.159.243
+- name: "img.email3.vidio.com"
+  server: img.email3.vidio.com
   <<: *xia-80
-- name: "172.66.144.39"
-  server: 172.66.144.39
+- name: "quiz.int.vidio.com"
+  server: quiz.int.vidio.com
   <<: *xia-80
 - name: "quiz.staging.vidio.com"
   server: quiz.staging.vidio.com
@@ -422,10 +427,10 @@ proxy-groups:
 - name: "Appsflyer"
   type: url-test
   proxies:
-    - "172.66.0.157"
-    - "162.159.140.159"
-    - "172.64.144.133"
-    - "104.18.43.123"
+    - "tiktokfootball.customlinks.appsflyer.com"
+    - "grab-cab.customlinks.appsflyer.com"
+    - "anna.customlinks-stg.appsflyer.com"
+    - "cdn.customlinks-stg.appsflyer.com"
     - "careers.appsflyer.com"
     - "community.appsflyer.com"
     - "dev.appsflyer.com"
@@ -469,9 +474,9 @@ proxy-groups:
 - name: "Garena"
   type: url-test
   proxies:
-    - "162.159.140.147"
+    - "bcmsuporte.garena.com"
     - "ff.garena.com"
-    - "172.66.0.145"
+    - "haikyusuporte.garena.com"
     - "web.poe.garena.com"
 
 # =====================================
@@ -498,9 +503,9 @@ proxy-groups:
 - name: "Midtrans"
   type: url-test
   proxies:
-    - "172.67.74.70"
-    - "104.16.241.118"
-    - "104.26.14.196"
+    - "api.midtrans.com"
+    - "api-docs.midtrans.com"
+    - "app.midtrans.com"
     - "docs.midtrans.com"
     - "info.midtrans.com"
     - "iris-docs.midtrans.com"
@@ -511,9 +516,9 @@ proxy-groups:
 - name: "Naver"
   type: url-test
   proxies:
-    - "104.16.126.59"
+    - "account.pmang.game.naver.com"
     - "ava.game.naver.com"
-    - "172.64.145.18"
+    - "df.game.naver.com"
     - "cyphers.game.naver.com"
     - "gamebulletin.nexon.game.naver.com"
     - "latale.game.naver.com"
@@ -526,9 +531,9 @@ proxy-groups:
 - name: "Noice.id"
   type: url-test
   proxies:
-    - "104.21.41.224"
-    - "172.67.167.175"
-    - "104.19.240.93"
+    - "partner-uat-api.noice.id"
+    - "studio.noice.id"
+    - "kejarthr.noice.id"
     - "listen.noice.id"
     - "thecalmadhdblueprint.noice.id"
 
@@ -538,8 +543,8 @@ proxy-groups:
 - name: "Ruangguru"
   type: url-test
   proxies:
-    - "188.114.96.3"
-    - "188.114.97.3"
+    - "me.ruangguru.com"
+    - "champion.ruangguru.com"
 
 # =====================================
 #               SPOTIFY
@@ -556,7 +561,9 @@ proxy-groups:
 - name: "Tiktok"
   type: url-test
   proxies:
-    - "172.66.1.232"
+    - "api24-normal-alisg.tiktokv.com"
+    - "api24-normal-useast1a.tiktokv.com"
+    - "api24-normal.tiktokv.com"
 
 # =====================================
 #               UDEMY.COM
@@ -564,8 +571,8 @@ proxy-groups:
 - name: "Udemy"
   type: url-test
   proxies:
-    - "104.16.143.237"
-    - "104.16.142.237"
+    - "axis.udemy.com"
+    - "www.facebook.udemy.com"
     - "community.udemy.com"
     - "info.udemy.com"
     - "infom.udemy.com"
@@ -579,8 +586,8 @@ proxy-groups:
   type: url-test
   proxies:
     - "img.email1.vidio.com"
-    - "104.17.159.243"
-    - "172.66.144.39"
+    - "img.email3.vidio.com"
+    - "quiz.int.vidio.com"
     - "quiz.staging.vidio.com"
     - "support.vidio.com"
 
