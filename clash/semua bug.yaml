@@ -184,6 +184,22 @@ proxies:
 - name: "app-stg.gopay.co.id"
   server: app-stg.gopay.co.id
   <<: *xia-80
+  
+# =====================================
+#               GRAB.COM
+# =====================================
+- name: "grabacademyportal.grab.com"
+  server: grabacademyportal.grab.com
+  <<: *xia-80
+- name: "grabalumni.grab.com"
+  server: grabalumni.grab.com
+  <<: *xia-80
+- name: "grabcentral.grab.com"
+  server: grabcentral.grab.com
+  <<: *xia-80
+- name: "investors.grab.com"
+  server: investors.grab.com
+  <<: *xia-80
 
 # =====================================
 #            LINE
@@ -400,6 +416,7 @@ proxy-groups:
     - "Facebook"
     - "Garena"
     - "Gopay"
+    - "Grab"
     - "Line"
     - "Midtrans"
     - "Naver"
@@ -488,6 +505,17 @@ proxy-groups:
   proxies:
     - "app.gopay.co.id"
     - "app-stg.gopay.co.id"
+    
+# =====================================
+#               GRAB.COM
+# =====================================
+- name: "Grab"
+  type: url-test
+  proxies:
+    - "grabacademyportal.grab.com"
+    - "grabalumni.grab.com"
+    - "grabcentral.grab.com"
+    - "investors.grab.com"
 
 # =====================================
 #             LINE
