@@ -39,7 +39,7 @@ x-xox: &xia-80
   servername: xox.gosiwin122.workers.dev
   network: ws
   ws-opts:
-    path: /pyip=16.78.217.189
+    path: /pyip=162.128.71.150:10024
     headers:
       Host: xox.gosiwin122.workers.dev
 
