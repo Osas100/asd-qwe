@@ -463,7 +463,7 @@ proxy-groups:
 #               DIRECT
 # =====================================
 - name: "Direct"
-  type: url-test
+  type: select
   proxies:
     - "xox.gosiwin122.workers.dev"
 
@@ -471,7 +471,7 @@ proxy-groups:
 #               APPSFLYER
 # =====================================
 - name: "Appsflyer"
-  type: url-test
+  type: select
   proxies:
     - "tiktokfootball.customlinks.appsflyer.com"
     - "grab-cab.customlinks.appsflyer.com"
@@ -494,7 +494,7 @@ proxy-groups:
 #          BYU.ID OPOK BYU
 # =====================================
 - name: "Byu.id opok"
-  type: url-test
+  type: select
   proxies:
     - "space.byu.id"
 
@@ -502,7 +502,7 @@ proxy-groups:
 #               EDUKASI
 # =====================================
 - name: "Edukasi"
-  type: url-test
+  type: select
   proxies:
     - "104.17.3.81"
 
@@ -510,7 +510,7 @@ proxy-groups:
 #               FACEBOOK
 # =====================================
 - name: "Facebook"
-  type: url-test
+  type: select
   proxies:
     - "investor.fb.com"
 
@@ -518,7 +518,7 @@ proxy-groups:
 #               GARENA.COM
 # =====================================
 - name: "Garena"
-  type: url-test
+  type: select
   proxies:
     - "bcmsuporte.garena.com"
     - "ff.garena.com"
@@ -529,7 +529,7 @@ proxy-groups:
 #               GOPAY
 # =====================================
 - name: "Gopay"
-  type: url-test
+  type: select
   proxies:
     - "app.gopay.co.id"
     - "app-stg.gopay.co.id"
@@ -538,7 +538,7 @@ proxy-groups:
 #               GRAB.COM
 # =====================================
 - name: "Grab"
-  type: url-test
+  type: select
   proxies:
     - "grabacademyportal.grab.com"
     - "grabacademy-partners-profiling.grab.com"
@@ -550,7 +550,7 @@ proxy-groups:
 #             LINE
 # =====================================
 - name: "Line"
-  type: url-test
+  type: select
   proxies:
     - "collection.linefriends.com"
     - "store.linefriends.com"
@@ -559,7 +559,7 @@ proxy-groups:
 #               MICROSOFT.COM
 # =====================================
 - name: "Microsoft"
-  type: url-test
+  type: select
   proxies:
     - "auth.copilot.microsoft.com"
     - "auth.copilotstaging.microsoft.com"
@@ -570,7 +570,7 @@ proxy-groups:
 #              MIDTRANS
 # =====================================
 - name: "Midtrans"
-  type: url-test
+  type: select
   proxies:
     - "api.midtrans.com"
     - "api-docs.midtrans.com"
@@ -583,7 +583,7 @@ proxy-groups:
 #             NAVER
 # =====================================
 - name: "Naver"
-  type: url-test
+  type: select
   proxies:
     - "account.pmang.game.naver.com"
     - "ava.game.naver.com"
@@ -598,7 +598,7 @@ proxy-groups:
 #               NOICE.ID
 # =====================================
 - name: "Noice.id"
-  type: url-test
+  type: select
   proxies:
     - "partner-uat-api.noice.id"
     - "studio.noice.id"
@@ -610,7 +610,7 @@ proxy-groups:
 #               RUANGGURU
 # =====================================
 - name: "Ruangguru"
-  type: url-test
+  type: select
   proxies:
     - "me.ruangguru.com"
     - "champion.ruangguru.com"
@@ -619,7 +619,7 @@ proxy-groups:
 #               SHOPEE
 # =====================================
 - name: "Shopee"
-  type: url-test
+  type: select
   proxies:
     - "cf.shopee.co.id"
 
@@ -627,7 +627,7 @@ proxy-groups:
 #               SPOTIFY
 # =====================================
 - name: "Spotify"
-  type: url-test
+  type: select
   proxies:
     - "investors.spotify.com"
     - "nerdout.atspotify.com"
@@ -636,7 +636,7 @@ proxy-groups:
 #               TIKTOK.COM
 # =====================================
 - name: "Tiktok"
-  type: url-test
+  type: select
   proxies:
     - "api24-normal-alisg.tiktokv.com"
     - "api24-normal-useast1a.tiktokv.com"
@@ -646,7 +646,7 @@ proxy-groups:
 #               UDEMY.COM
 # =====================================
 - name: "Udemy"
-  type: url-test
+  type: select
   proxies:
     - "axis.udemy.com"
     - "www.facebook.udemy.com"
@@ -660,7 +660,7 @@ proxy-groups:
 #               VIDIO
 # =====================================
 - name: "Vidio"
-  type: url-test
+  type: select
   proxies:
     - "img.email1.vidio.com"
     - "img.email3.vidio.com"
@@ -672,7 +672,7 @@ proxy-groups:
 #               VISION+
 # =====================================
 - name: "Vision+"
-  type: url-test
+  type: select
   proxies:
     - "104.18.225.52"
 
@@ -680,7 +680,7 @@ proxy-groups:
 #               WHATSAPP
 # =====================================
 - name: "Whatsapp"
-  type: url-test
+  type: select
   proxies:
     - "104.18.1.196"
 
@@ -688,7 +688,7 @@ proxy-groups:
 #               WEBEX
 # =====================================
 - name: "Webex"
-  type: url-test
+  type: select
   proxies:
     - "carrier.webex.com"
     - "blog.webex.com"
@@ -697,7 +697,7 @@ proxy-groups:
 #                ZOOM.US
 # =====================================
 - name: "Zoom.us"
-  type: url-test
+  type: select
   proxies:
     - "support.zoom.us"
     - "gomarketplacecontent-cf.zoom.us"
