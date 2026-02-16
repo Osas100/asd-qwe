@@ -1,0 +1,35 @@
+mode: Rule
+
+x-xox: &xia-80
+  type: vless
+  port: 443
+  uuid: a4aaaaaa-a4aa-4aaa-a4aa-a4aa4aa4aa4a
+  udp: false
+  tls: true
+  servername: xox.gosiwin122.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=162.128.71.150:10024
+    headers:
+      Host: xox.gosiwin122.workers.dev
+      
+proxies:
+
+- name: "auth.copilot.microsoft.com"
+  server: auth.copilot.microsoft.com
+  <<: *xia-80
+  
+- name: "ava.game.naver.com"
+  server: ava.game.naver.com
+  <<: *xia-80
+  
+proxy-groups:
+
+- name: "xox"
+  type: select
+  proxies:
+    - "auth.copilot.microsoft.com"
+    - "ava.game.naver.com"
+    
+rules:
+  - MATCH,xox
