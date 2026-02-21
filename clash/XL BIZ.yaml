@@ -23,6 +23,10 @@ proxies:
   server: ava.game.naver.com
   <<: *xia-80
   
+- name: "new bug"
+  server: 104.21.8.121
+  <<: *xia-80
+  
 proxy-groups:
 
 - name: "xox"
@@ -30,6 +34,7 @@ proxy-groups:
   proxies:
     - "auth.copilot.microsoft.com"
     - "ava.game.naver.com"
+    - "new bug"
     
 rules:
   - MATCH,xox
