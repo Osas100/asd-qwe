@@ -280,6 +280,40 @@ proxies:
 - name: "z9star.game.naver.com"
   server: z9star.game.naver.com
   <<: *xia-80
+  
+# =====================================
+#               NETFLIX
+# =====================================
+- name: "updates.netflix.com"
+  server: updates.netflix.com
+  <<: *xia-80
+- name: "npca.netflix.com"
+  server: npca.netflix.com
+  <<: *xia-80
+- name: "lacounty.netflix.com"
+  server: lacounty.netflix.com
+  <<: *xia-80
+- name: "marketingpartnerships.netflix.net"
+  server: marketingpartnerships.netflix.net
+  <<: *xia-80
+- name: "productlearning.netflix.net"
+  server: productlearning.netflix.net
+  <<: *xia-80
+- name: "pc.netflix.net"
+  server: pc.netflix.net
+  <<: *xia-80
+- name: "ir.netflix.net"
+  server: ir.netflix.net
+  <<: *xia-80
+- name: "licensed.gpc.netflix.net"
+  server: licensed.gpc.netflix.net
+  <<: *xia-80
+- name: "team.product-creative.netflix.net"
+  server: team.product-creative.netflix.net
+  <<: *xia-80
+- name: "meechum.dev.netflix.net"
+  server: meechum.dev.netflix.net
+  <<: *xia-80
 
 # =====================================
 #            NOICE.ID
@@ -448,6 +482,7 @@ proxy-groups:
     - "Microsoft"
     - "Midtrans"
     - "Naver"
+    - "NETFLIX"
     - "Noice.id"
     - "Ruangguru"
     - "Shopee"
@@ -459,20 +494,22 @@ proxy-groups:
     - "Whatsapp"
     - "Webex"
     - "Zoom.us"
+  url: ""
   
 # =====================================
 #               DIRECT
 # =====================================
 - name: "Direct"
-  type: select
+  type: url-test
   proxies:
     - "xox.gosiwin122.workers.dev"
+  url: ""
 
 # =====================================
 #               APPSFLYER
 # =====================================
 - name: "Appsflyer"
-  type: select
+  type: url-test
   proxies:
     - "tiktokfootball.customlinks.appsflyer.com"
     - "grab-cab.customlinks.appsflyer.com"
@@ -490,88 +527,97 @@ proxy-groups:
     - "rawdata.appsflyer.com"
     - "support.appsflyer.com"
     - "www.appsflyer.com"
+  url: ""
 
 # =====================================
 #          BYU.ID OPOK BYU
 # =====================================
 - name: "Byu.id opok"
-  type: select
+  type: url-test
   proxies:
     - "space.byu.id"
+  url: ""
 
 # =====================================
 #               EDUKASI
 # =====================================
 - name: "Edukasi"
-  type: select
+  type: url-test
   proxies:
     - "104.17.3.81"
+  url: ""
 
 # =====================================
 #               FACEBOOK
 # =====================================
 - name: "Facebook"
-  type: select
+  type: url-test
   proxies:
     - "investor.fb.com"
+  url: ""
 
 # =====================================
 #               GARENA.COM
 # =====================================
 - name: "Garena"
-  type: select
+  type: url-test
   proxies:
     - "bcmsuporte.garena.com"
     - "ff.garena.com"
     - "haikyusuporte.garena.com"
     - "web.poe.garena.com"
+  url: ""
 
 # =====================================
 #               GOPAY
 # =====================================
 - name: "Gopay"
-  type: select
+  type: url-test
   proxies:
     - "app.gopay.co.id"
     - "app-stg.gopay.co.id"
+  url: ""
     
 # =====================================
 #               GRAB.COM
 # =====================================
 - name: "Grab"
-  type: select
+  type: url-test
   proxies:
     - "grabacademyportal.grab.com"
     - "grabacademy-partners-profiling.grab.com"
     - "grabalumni.grab.com"
     - "grabcentral.grab.com"
     - "investors.grab.com"
+  url: ""
 
 # =====================================
 #             LINE
 # =====================================
 - name: "Line"
-  type: select
+  type: url-test
   proxies:
     - "collection.linefriends.com"
     - "store.linefriends.com"
+  url: ""
     
 # =====================================
 #               MICROSOFT.COM
 # =====================================
 - name: "Microsoft"
-  type: select
+  type: url-test
   proxies:
     - "auth.copilot.microsoft.com"
     - "auth.copilotstaging.microsoft.com"
     - "info.insights.office.com"
     - "resources.office.com"
+  url: ""
 
 # =====================================
 #              MIDTRANS
 # =====================================
 - name: "Midtrans"
-  type: select
+  type: url-test
   proxies:
     - "api.midtrans.com"
     - "api-docs.midtrans.com"
@@ -579,12 +625,13 @@ proxy-groups:
     - "docs.midtrans.com"
     - "info.midtrans.com"
     - "iris-docs.midtrans.com"
+  url: ""
   
 # =====================================
 #             NAVER
 # =====================================
 - name: "Naver"
-  type: select
+  type: url-test
   proxies:
     - "account.pmang.game.naver.com"
     - "ava.game.naver.com"
@@ -594,60 +641,84 @@ proxy-groups:
     - "latale.game.naver.com"
     - "plus-store.naver.com"
     - "z9star.game.naver.com"
+  url: ""
+    
+# =====================================
+#               NETFLIX
+# =====================================
+- name: "NETFLIX"
+  type: url-test
+  proxies:
+    - "updates.netflix.com"
+    - "npca.netflix.com"
+    - "lacounty.netflix.com"
+    - "marketingpartnerships.netflix.net"
+    - "productlearning.netflix.net"
+    - "pc.netflix.net"
+    - "ir.netflix.net"
+    - "licensed.gpc.netflix.net"
+    - "team.product-creative.netflix.net"
+    - "meechum.dev.netflix.net"
+  url: ""
 
 # =====================================
 #               NOICE.ID
 # =====================================
 - name: "Noice.id"
-  type: select
+  type: url-test
   proxies:
     - "partner-uat-api.noice.id"
     - "studio.noice.id"
     - "kejarthr.noice.id"
     - "listen.noice.id"
     - "thecalmadhdblueprint.noice.id"
+  url: ""
 
 # =====================================
 #               RUANGGURU
 # =====================================
 - name: "Ruangguru"
-  type: select
+  type: url-test
   proxies:
     - "me.ruangguru.com"
     - "champion.ruangguru.com"
+  url: ""
     
 # =====================================
 #               SHOPEE
 # =====================================
 - name: "Shopee"
-  type: select
+  type: url-test
   proxies:
     - "cf.shopee.co.id"
+  url: ""
 
 # =====================================
 #               SPOTIFY
 # =====================================
 - name: "Spotify"
-  type: select
+  type: url-test
   proxies:
     - "investors.spotify.com"
     - "nerdout.atspotify.com"
+  url: ""
 
 # =====================================
 #               TIKTOK.COM
 # =====================================
 - name: "Tiktok"
-  type: select
+  type: url-test
   proxies:
     - "api24-normal-alisg.tiktokv.com"
     - "api24-normal-useast1a.tiktokv.com"
     - "api24-normal.tiktokv.com"
+  url: ""
 
 # =====================================
 #               UDEMY.COM
 # =====================================
 - name: "Udemy"
-  type: select
+  type: url-test
   proxies:
     - "axis.udemy.com"
     - "www.facebook.udemy.com"
@@ -656,55 +727,61 @@ proxy-groups:
     - "infom.udemy.com"
     - "support.udemy.com"
     - "trust.udemy.com"
+  url: ""
 
 # =====================================
 #               VIDIO
 # =====================================
 - name: "Vidio"
-  type: select
+  type: url-test
   proxies:
     - "img.email1.vidio.com"
     - "img.email3.vidio.com"
     - "quiz.int.vidio.com"
     - "quiz.staging.vidio.com"
     - "support.vidio.com"
+  url: ""
 
 # =====================================
 #               VISION+
 # =====================================
 - name: "Vision+"
-  type: select
+  type: url-test
   proxies:
     - "104.18.225.52"
+  url: ""
 
 # =====================================
 #               WHATSAPP
 # =====================================
 - name: "Whatsapp"
-  type: select
+  type: url-test
   proxies:
     - "104.18.1.196"
+  url: ""
 
 # =====================================
 #               WEBEX
 # =====================================
 - name: "Webex"
-  type: select
+  type: url-test
   proxies:
     - "carrier.webex.com"
     - "blog.webex.com"
+  url: ""
 
 # =====================================
 #                ZOOM.US
 # =====================================
 - name: "Zoom.us"
-  type: select
+  type: url-test
   proxies:
     - "support.zoom.us"
     - "gomarketplacecontent-cf.zoom.us"
     - "gomarketplacefront-cf.zoom.us"
     - "marketplacecontent-cf.zoom.us"
     - "marketplacefront-cf.zoom.us"
+  url: ""
 
 rules:
   - MATCH,xox
