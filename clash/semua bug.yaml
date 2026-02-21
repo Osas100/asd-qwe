@@ -204,6 +204,28 @@ proxies:
 - name: "investors.grab.com"
   server: investors.grab.com
   <<: *xia-80
+  
+# =====================================
+#               Hotstar
+# =====================================
+- name: "live-cflare-dev.cdn.hotstar.com"
+  server: live-cflare-dev.cdn.hotstar.com
+  <<: *xia-80
+- name: "live-cflare.cdn.hotstar.com"
+  server: live-cflare.cdn.hotstar.com
+  <<: *xia-80
+- name: "live-sgai-cflare-dev-mum.cdn.hotstar.com"
+  server: live-sgai-cflare-dev-mum.cdn.hotstar.com
+  <<: *xia-80
+- name: "live-sgai-n-cflare-mum-child.cdn.hotstar.com"
+  server: live-sgai-n-cflare-mum-child.cdn.hotstar.com
+  <<: *xia-80
+- name: "w.em.disneyplus.com"
+  server: w.em.disneyplus.com
+  <<: *xia-80
+- name: "x.em.disneyplus.com"
+  server: x.em.disneyplus.com
+  <<: *xia-80
 
 # =====================================
 #            LINE
@@ -478,6 +500,7 @@ proxy-groups:
     - "Garena"
     - "Gopay"
     - "Grab"
+    - "Hotstar"
     - "Line"
     - "Microsoft"
     - "Midtrans"
@@ -589,6 +612,20 @@ proxy-groups:
     - "grabalumni.grab.com"
     - "grabcentral.grab.com"
     - "investors.grab.com"
+  url: ""
+  
+# =====================================
+#               Hotstar
+# =====================================
+- name: "Hotstar"
+  type: url-test
+  proxies:
+    - "live-cflare-dev.cdn.hotstar.com"
+    - "live-cflare.cdn.hotstar.com"
+    - "live-sgai-cflare-dev-mum.cdn.hotstar.com"
+    - "live-sgai-n-cflare-mum-child.cdn.hotstar.com"
+    - "w.em.disneyplus.com"
+    - "x.em.disneyplus.com"
   url: ""
 
 # =====================================
