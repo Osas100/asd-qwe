@@ -355,6 +355,28 @@ proxies:
 - name: "thecalmadhdblueprint.noice.id"
   server: thecalmadhdblueprint.noice.id
   <<: *xia-80
+  
+# =====================================
+#               Ovo
+# =====================================
+- name: "api.cp6.ovo.id"
+  server: api.cp6.ovo.id
+  <<: *xia-80
+- name: "api.ovo.id"
+  server: api.ovo.id
+  <<: *xia-80
+- name: "cb.ovo.id"
+  server: cb.ovo.id
+  <<: *xia-80
+- name: "settlement.ovo.id"
+  server: settlement.ovo.id
+  <<: *xia-80
+- name: "stg-apigw01.aws.ovo.id"
+  server: stg-apigw01.aws.ovo.id
+  <<: *xia-80
+- name: "stg-verification.aws.ovo.id"
+  server: stg-verification.aws.ovo.id
+  <<: *xia-80
 
 # =====================================
 #               RUANGGURU
@@ -507,6 +529,7 @@ proxy-groups:
     - "Naver"
     - "Netflix"
     - "Noice.id"
+    - "Ovo"
     - "Ruangguru"
     - "Shopee"
     - "Spotify"
@@ -709,6 +732,20 @@ proxy-groups:
     - "kejarthr.noice.id"
     - "listen.noice.id"
     - "thecalmadhdblueprint.noice.id"
+  url: ""
+  
+# =====================================
+#               Ovo
+# =====================================
+- name: "Ovo"
+  type: url-test
+  proxies:
+    - "api.cp6.ovo.id"
+    - "api.ovo.id"
+    - "cb.ovo.id"
+    - "settlement.ovo.id"
+    - "stg-apigw01.aws.ovo.id"
+    - "stg-verification.aws.ovo.id"
   url: ""
 
 # =====================================
