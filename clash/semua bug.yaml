@@ -482,7 +482,7 @@ proxy-groups:
     - "Microsoft"
     - "Midtrans"
     - "Naver"
-    - "NETFLIX"
+    - "Netflix"
     - "Noice.id"
     - "Ruangguru"
     - "Shopee"
@@ -646,7 +646,7 @@ proxy-groups:
 # =====================================
 #               NETFLIX
 # =====================================
-- name: "NETFLIX"
+- name: "Netflix"
   type: url-test
   proxies:
     - "updates.netflix.com"
