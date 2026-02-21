@@ -468,6 +468,13 @@ proxies:
 - name: "104.18.225.52"
   server: 104.18.225.52
   <<: *xia-80
+  
+# =====================================
+#               Viu
+# =====================================
+- name: "cfcdn.viu.com"
+  server: cfcdn.viu.com
+  <<: *xia-80
 
 # =====================================
 #               WHATSAPP
@@ -537,6 +544,7 @@ proxy-groups:
     - "Udemy"
     - "Vidio"
     - "Vision+"
+    - "Viu"
     - "Whatsapp"
     - "Webex"
     - "Zoom.us"
@@ -823,6 +831,15 @@ proxy-groups:
   type: url-test
   proxies:
     - "104.18.225.52"
+  url: ""
+  
+# =====================================
+#               Viu
+# =====================================
+- name: "Viu"
+  type: url-test
+  proxies:
+    - "cfcdn.viu.com"
   url: ""
 
 # =====================================
