@@ -36,6 +36,7 @@ x-xox: &xia-80
   uuid: a4aaaaaa-a4aa-4aaa-a4aa-a4aa4aa4aa4a
   udp: false
   tls: true
+  skip-cert-verify: true
   servername: xox.gosiwin122.workers.dev
   network: ws
   ws-opts:
